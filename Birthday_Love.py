@@ -6,9 +6,9 @@ from email.mime.text import MIMEText
 # Function to send text message
 def send_text(receiver_number, message):
     # Provide your Twilio account SID, auth token, and phone number details here
-    account_sid = 'AC360cb594b32784f176cd4580e4bda9c4'
-    auth_token = '575bfdb154f0fd3aeaaf878d8f149ca1'
-    twilio_number = '+18446061784'
+    account_sid = ''
+    auth_token = ''
+    twilio_number = ''
 
     # Create Twilio client
     client = Client(account_sid, auth_token)
@@ -25,8 +25,8 @@ def send_text(receiver_number, message):
 # Function to send email reminder
 def send_email(receiver_email, subject, message):
     # Provide your email details here
-    sender_email = 'testingemailmillion@gmail.com'
-    sender_password = 'ajwe klol ddtm eelc'
+    sender_email = ''
+    sender_password = ''
 
     # Create email message
     email_message = MIMEText(message)
